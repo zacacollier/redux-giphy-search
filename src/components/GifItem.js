@@ -3,7 +3,7 @@ import React from 'react';
 const GifItem = (image) => {
   return (
     <li>
-      <img alt={'whoops'} src={image.gif.url} />
+      <img alt={'whoops'} src={image.gif.images.downsized.url} />
     </li>
   );
 };
