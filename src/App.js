@@ -1,8 +1,9 @@
 import React, { Component, PropTypes as T } from 'react';
-import GifList                              from './components/GifList'
-import SearchBar                            from './components/SearchBar'
+import request                              from 'superagent';
 
-import request from 'superagent';
+import GifList                              from './components/GifList';
+import SearchBar                            from './components/SearchBar';
+import                                           './App.css';
 
 class App extends Component {
   static propTypes = {
