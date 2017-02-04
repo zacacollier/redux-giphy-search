@@ -1,4 +1,4 @@
-import React, { Component, PropTypes as T } from 'react';
+import React, { Component } from 'react';
 
 class SearchBar extends Component {
   constructor(props) {
